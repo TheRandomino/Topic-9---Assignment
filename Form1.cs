@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +16,18 @@ namespace Topic_9___Assignment
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnGood_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBad_Click(object sender, EventArgs e)
+        {
+            this.Text = "MAD!";
+            this.BackgroundImage = Properties.Resources.hell;
+            lblBad.Visible = true;
         }
     }
 }
