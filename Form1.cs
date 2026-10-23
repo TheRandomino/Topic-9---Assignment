@@ -20,7 +20,10 @@ namespace Topic_9___Assignment
 
         private void btnGood_Click(object sender, EventArgs e)
         {
-
+            this.Text = "Happy!";
+            this.BackgroundImage = Properties.Resources.whimsy;
+            lblGood.Visible = true;
+            lblBad.Visible = false;
         }
 
         private void btnBad_Click(object sender, EventArgs e)
@@ -28,6 +31,7 @@ namespace Topic_9___Assignment
             this.Text = "MAD!";
             this.BackgroundImage = Properties.Resources.hell;
             lblBad.Visible = true;
+            lblGood.Visible = false;
         }
     }
 }

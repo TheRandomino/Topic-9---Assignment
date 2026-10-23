@@ -38,8 +38,8 @@
             // 
             this.lblGood.BackColor = System.Drawing.Color.Transparent;
             this.lblGood.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGood.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.lblGood.Location = new System.Drawing.Point(293, 23);
+            this.lblGood.ForeColor = System.Drawing.Color.SpringGreen;
+            this.lblGood.Location = new System.Drawing.Point(293, -30);
             this.lblGood.Name = "lblGood";
             this.lblGood.Size = new System.Drawing.Size(248, 97);
             this.lblGood.TabIndex = 0;
@@ -72,7 +72,7 @@
             this.lblBad.BackColor = System.Drawing.Color.Transparent;
             this.lblBad.Font = new System.Drawing.Font("Papyrus", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBad.ForeColor = System.Drawing.Color.Red;
-            this.lblBad.Location = new System.Drawing.Point(293, 27);
+            this.lblBad.Location = new System.Drawing.Point(293, 36);
             this.lblBad.Name = "lblBad";
             this.lblBad.Size = new System.Drawing.Size(248, 97);
             this.lblBad.TabIndex = 3;
